@@ -1,4 +1,4 @@
-# Fundamentals
+# Business Analyst Fundamentals
 
 ## Content
 1. [Introduction](./01-Introduction.md)

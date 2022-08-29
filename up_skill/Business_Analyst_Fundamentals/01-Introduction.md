@@ -37,7 +37,7 @@ When you finish the course, you will be able to:
 - modelling techniques
 - domain knowledge
 - data analysis skills
-- software development concerts
+- software development concepts
 
 ## Career Perspectives:
 - business analysis

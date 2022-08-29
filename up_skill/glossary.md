@@ -1,13 +1,20 @@
 # Glossary
 
 
-## Category 1
+## Terms
+- Product owner
+- Scrum master
+
+
+
+## English - Russian Vocabulary
+### Category 1
 - agenda:   повестка дня
 - comprise: включает myself
 - designed: разработан
 - newbies:  новичк
 
-## Category 2
+### Category 2
 - self-paced - самостоятельный
 - core - суть
 - rough estimation- Грубая оценка
@@ -99,3 +106,11 @@
 - reflect- проанализировать
 - impediments - препятствия
 - Increment - Увеличение, прирост
+- Reset button - кнопка сброса
+- Power supply - источник питания
+- Motherboard - системная плата 
+- Fetch-execute cycle - цикл выборка-выполнение
+- The decimal system - десятичная система
+- Revise - исправлять
+- Cell - ячейка
+- Variable - переменные

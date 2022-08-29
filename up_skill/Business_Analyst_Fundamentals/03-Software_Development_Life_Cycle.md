@@ -1,11 +1,25 @@
 # The Software Development Life Cycle (SDLC)
-- **Requirement definition** - During the Requirement Definition stage, a Business Analyst collects the input from stakeholders trying to understand their 'true' needs and what goals they are trying to pursue. In addition, the objectives of the initiative are defined, and a Business Analyst ensures that everyone involved has a shared understanding of those objectives.
-- **Analysis** - During the Analysis stage, a Business Analyst elaborates on the high-level requirements received in the previous phase. Further to that, the team determines the cost and resources required for implementing the identified requirements. The risks associated with the initiative are analyzed to work out the mitigation plan if needed.
-- **Design** - During the Design stage, solution architecture is designed and described in a document. Moreover, the phase implies creating prototypes of the envisioned solution. Generally, prototyping proved itself to be useful for getting early feedback and eliminating risks associated with future development.
-- **Coding** - During the Analysis stage, a Business Analyst elaborates on the high-level requirements received in the previous phase. Further to that, the team determines the cost and resources required for implementing the identified requirements. The risks associated with the initiative are analyzed to work out the mitigation plan if needed.
-- **Assurance** - During the Quality Assurance stage, the product is tested to confirm its quality and value for end users. Any issues found during the testing process should be fixed until the software meets the expected quality guidelines.
-- **Deployment** - During the Deployment stage, the software is deployed to the production environment so that end users can start using it.
-- **Maintenance** - During the Maintenance stage, the existing product might be enhanced with new features, or any errors detected by real customers will be fixed as a part of this phase. Active development is not expected during the Maintenance stage; however, the product should constantly evolve to support fast-changing business needs.
+- **Requirement definition**
+	During the Requirement Definition stage, a Business Analyst collects the input from stakeholders trying to understand their 'true' needs and what goals they are trying to pursue. In addition, the objectives of the initiative are defined, and a Business Analyst ensures that everyone involved has a shared understanding of those objectives.
+
+- **Analysis**
+	During the Analysis stage, a Business Analyst elaborates on the high-level requirements received in the previous phase. Further to that, the team determines the cost and resources required for implementing the identified requirements. The risks associated with the initiative are analyzed to work out the mitigation plan if needed.
+
+- **Design**
+	During the Design stage, solution architecture is designed and described in a document. Moreover, the phase implies creating prototypes of the envisioned solution. Generally, prototyping proved itself to be useful for getting early feedback and eliminating risks associated with future development.
+
+- **Coding**
+	During the Analysis stage, a Business Analyst elaborates on the high-level requirements received in the previous phase. Further to that, the team determines the cost and resources required for implementing the identified requirements. The risks associated with the initiative are analyzed to work out the mitigation plan if needed.
+
+- **Assurance**
+	During the Quality Assurance stage, the product is tested to confirm its quality and value for end users. Any issues found during the testing process should be fixed until the software meets the expected quality guidelines.
+
+- **Deployment**
+	During the Deployment stage, the software is deployed to the production environment so that end users can start using it.
+
+- **Maintenance**
+	During the Maintenance stage, the existing product might be enhanced with new features, or any errors detected by real customers will be fixed as a part of this phase. Active development is not expected during the Maintenance stage. however, the product should constantly evolve to support fast-changing business needs.
+
 
 ## SDLC models
 ### Traditional
@@ -21,16 +35,17 @@ Phases:
 - Operation/Deployment
 - Maintenance
 
-The Waterfall model is usually associated with tons of requirements documents, predefined templates, and a rigid approval process. The use of Waterfall in modern IT is rare. 
+The Waterfall model is usually associated with tons of requirements documents, predefined templates, and a rigid approval process. The use of Waterfall in modern IT is rare.
+
 The model is applicable to small projects if:
-	* the requirements are known, understood, and well documented
-	* there are no conflicting requirements
-	* there is no problem with the availability of Developers with the required qualification level
-	* the product to be developed deals with the high-risk area (medical care, military industry, aircraft industry, etc.)
+- the requirements are known, understood, and well documented
+- there are no conflicting requirements
+- there is no problem with the availability of Developers with the required qualification level
+- the product to be developed deals with the high-risk area (medical care, military industry, aircraft industry, etc.)
 
 #### Advantages
-- Is easy to use while managing a project.
-- Due to its rigidity, development is fast, cost and timeframe are predetermined.
+- Is easy to use while managing a project
+- Due to its rigidity, development is fast, cost and timeframe are predetermined
 
 #### Disadvantages
 - The product is not accessible for stakeholders until the very end of the project.
@@ -39,19 +54,19 @@ The model is applicable to small projects if:
 - Developers are required to write a lot of technical documentation which delays work.
 - Problems in the system can only be discovered late in the process (during the Testing phase) due to a strict sequence of phases, and there might be little time left for fixing the found issues.
 
-#### Exemples: 
+#### Examples
 Rational Unified Process (RUP) and V-Model
 
 ### Agile
 Is change-driven and focused on the rapid delivery of the business value
 
 #### Advantages
-- Is change-driven and focused on the rapid delivery of the business value. 
-- Agile accepts a greater level of uncertainty and risk related to the overall solution delivery. 
-- Iterative development, 
+- Is change-driven and focused on the rapid delivery of the business value
+- Agile accepts a greater level of uncertainty and risk related to the overall solution delivery
+- Iterative development
 - Early feedback
 - Adaptability to changes
-- А Business Analyst work during all projects.
+- А Business Analyst work during all projects
 - Agile does not require a Business Analyst to write formal detailed documentation. Instead, is expected to write user stories and acceptance criteria with enough details, leaving enough room for conversations between a team and a Product Owner.
 
 
@@ -97,7 +112,7 @@ Scrum is divided into time-boxed iterations, called **sprints**. During a sprint
 	A development team is responsible for the achievement of sprint goals and the delivery of product increments at the end of each sprint. According to the Scrum framework, a development team should consist of 5–9 specialists with cross-functional skills. They do the actual work, such as analysis, design, development, testing, etc. A development team is self-organized, and ideally, there are no titles, which enables all team members to help each other do the same work. Each person contributes as much as possible to make sure that the team completes the work of each sprint. A team has a shared commitment to achieve the sprint goals and it is expected that individuals will work beyond their preferred disciplines whenever they can in order to deliver a valuable product. It means that Developers, Business Analysts, Testers have their primary responsibility; however, at the same time, they can help each other to complete tasks. For example, Developers and Business Analysts can help Testers to test new features and deliver product increments in time.
 
 #### Events
-- **Sprint Planning**- meeting where a team decides on how much work they will be capable of doing during the sprint
+- **Sprint Planning** - meeting where a team decides on how much work they will be capable of doing during the sprint
 - **Daily Scrum** - meeting where team members share statuses on the work that is completed and is planned to be completed
 - **Sprint Review** - meeting to show a Product Owner the work they have done during the sprint.
 - **Sprint Retrospective** - meeting is used by team members to reflect on their processes and find room for improvement.
