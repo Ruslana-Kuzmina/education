@@ -79,10 +79,10 @@ The XOR operation gives 1 when exactly one of the inputs is 1. The XNOR may be e
 
 | A | B | AND | OR | XOR | XNOR |
 |---|---|-----|----|-----|------|
-| 0 | 0 | 0   | 0  | 0   | 0    |
+| 0 | 0 | 0   | 0  | 0   | 1    |
 | 0 | 1 | 0   | 1  | 1   | 0    |
 | 1 | 0 | 0   | 1  | 1   | 0    |
-| 1 | 1 | 1   | 1  | 0   | 0    |
+| 1 | 1 | 1   | 1  | 0   | 1    |
 
 
 ### Logic Circuits
@@ -94,11 +94,82 @@ Simple logic gates can be combined to build logic circuits. XOR gate implements 
 In this topic we will outline on a basic level what the CPU does. It is obvious that it somehow performs some instructions but let us have a closer look at it.
 
 The CPU has so-called **registers** which are essentially a few bytes of very fast memory. The size of registers depends on computer architecture; modern processors have 64-bit registers. Each CPU has the following registers:
-- Program counter. This register contains the address of the current instruction in RAM (Random Access Memory).
-= Instruction register. This register contains the instruction currently being executed.
-= Data registers. These registers are used to store results of operations.
-= There are many other registers in modern complex CPUs but let us keep it simple.
+- **Program counter**. This register contains the address of the current instruction in RAM (Random Access Memory).
+- **Instruction register**. This register contains the instruction currently being executed.
+- **Data registers**. These registers are used to store results of operations.
 
-The CPU also has a clock generator that generates pulses with predefined intervals of time. It is used to synchronize different parts of a processor. Each time a clock pulse occurs, millions of small circuits in the processor change their state and process signals. All at the same time.
+The CPU also has a clock generator that generates pulses with predefined intervals of time. It is used to synchronize different parts of a processor. Each time a clock pulse occurs, millions of small circuits in the processor change their state and process signals. All at the same time. 
 
-Fetch-Execute cycle or Fetch-Decode-Execute cycle or Instruction cycle is a three-stage process:
+Fetch-Execute Cycle has three stage process:
+- **Fetch** 
+The CPU retrieves an instruction from RAM using program counter register as the address of the instruction and stores it to the instruction register. After that, the program counter is increased by .
+- **Decode**
+The CPU decodes the instruction stored in the instruction register and prepares to execute it.
+- **Execute**
+The CPU executes the instruction stored in the instruction register.
+
+This cycle begins as soon as the computer is turned on and ends when the computer is shut down. Machine level instructions which do something based on a condition are called **control flow instructions**.
+
+## Text, Encodings, Unicode
+
+### ASCII, 1-Byte Encodings
+We have already explained how a computer stores and operates number data. However, we need to process not only numbers, but texts as well. This is done by mapping letters to numbers. These mappings are called **encoding systems**. One of the first such systems was ASCII (American Standard Code for Information Interchange). It maps one byte to one character. Though only 7-bits of byte are used, 7-bits give us 128 unique characters which is enough to code all letters of the English alphabet, numbers, and some special symbols.
+
+ASCII table consists of two types of symbols:
+- Special control characters, for example, SOH, STX, and others.
+- English letters, numbers, and other printable characters, for example, question mark (63), equals sign (61).
+
+ASCII table can be extended to 8-bit (one byte). 
+
+### Unicode
+Unicode is a character set which assigns numbers to characters. How these numbers are stored by the computer depends on a Unicode encoding. The most used Unicode encodings are: UTF-8, UTF-16, and UTF-32.
+
+- **UTF-32** was the first Unicode encoding. It is a fixed-length Unicode encoding. The number 32 in the name represents the number of bits used to code each Unicode character. 32 bits correspond to 4 bytes. So, each symbol in UTF-32 is coded using 4 bytes. In modern times, this encoding is rarely used because:
+- It wastes a lot of space; an English text encoded using UTF-32 uses 4 times more space. 
+- It is not ASCII-compatible.
+
+- **UTF-16** uses 2 or 4 bytes to encode characters. It is a variable length Unicode encoding. It is used internally by Windows and Java programming language. Although it wastes less space than UTF-32 for an English text, it still uses twice as much space compared to ASCII; and it is not ASCII-compatible.
+
+- **UTF-8** is a variable length encoding scheme for Unicode. It uses one to four bytes to encode symbols. If a text uses only ASCII symbols, the Unicode and ASCII encoded text will be the same. It is ASCII-compatible. At the same time, because it is ASCII-compatible, it uses one byte for one letter for an English text. UTF-8 is the most used encoding on web pages.
+
+| Encoding    | Variable or Fixed-length | Bytes per Character |         Usage        |
+.......................................................................................
+| ASCII and   |      Fixed	             |          1          |No longer widely used |
+|other 1-byte |        	                 |                     |and should be avoided |
+|encodings    |                          |                     |                      |
+| UTF-32      |      Fixed               |          4	         |  Rarely used         |
+| UTF-16      |      Variable            |        2 or 4       |  Rarely used         |
+| UTF-8       |      Variable            |        1 to 4       |  Widely used         |
+
+## Colors and Images
+
+### Color Models
+
+There are two ways to obtain color: 
+
+- Additive color mixing (RGB)
+RGB stands for Red, Green, and Blue (primary colors in the RGB model). Each computer screen pixel releases the amounts of **red, blue, and green** light so that our eyes perceive the desired color. This type of color mixing is called “additive” because we start with a black color and combine (or add) different amounts of red, green, and blue light. We add several wave lengths to obtain a color.
+
+- Subtractive color mixing (CMYK)
+
+When painting or printing, colors are obtained in a way that is called "subtractive". The white surface seems white to us because it reflects all visible wavelengths (the white color is simply a mixture of all visible wavelengths). By painting on the white surface, we make the surface absorb some part of spectrum, thus giving it a color. When we mix paints, both paints still absorb all wavelengths they did previously. The only difference is that the wavelengths reflected by both paints are reflected now. Thus, we “subtract” colors from white to obtain a new color.
+In color printing, the usual primary colors are cyan, magenta, and yellow (CMY). The key (K, black) component is often added to avoid mixing all colors to obtain black.
+
+### Describing a Color with Numbers
+
+We may choose how many bits we want to use to describe the intensities. The number of bits used to describe a color is called **color depth**.
+If we assign a one-byte number to each of the primary colors, we get 25*63 = 16,777,216 possible colors. The human eye can detect about 10 million colors. Such color model is called **true color** because of that. Modern computers use 24-bit color depth (true color) in almost all cases.
+
+### Digital Images
+
+#### Raster
+The simplest way to convert an image to a digit is to use a rectangular grid and then assign a color to each cell. Such file format is called a **bitmap**. Although, a bitmap is an exact representation of a part of a screen, it appears to have poor quality when enlarged. It also uses a lot of space.
+The number of bits needed to store a bitmap image is **"width"×"height"×"color depth"**. Some additional space is also needed for the header which contains information about the image width, height, color depth, and other. For example, without the header we would not be able to distinguish between a 200 x 400 image and a 800 x 100 image.
+
+There are other commonly used raster image formats:
+- png (Portable Network Graphics) – supports lossless compression.
+- gif (Graphics Interchange Format) – supports lossless compression.
+- jpeg (Joint Photographic Experts Group) – supports lossy compression, mostly used for photos.
+
+#### Vector
+Vector images do not store images pixel by pixel. Vector images store objects such as lines and curves using coordinates and geometry. Vector images can be enlarged without losing quality. However, it cannot be used to store photos. The most common format of vector images for the web is scalable vector graphics (svg).

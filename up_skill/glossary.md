@@ -114,3 +114,8 @@
 - Revise - исправлять
 - Cell - ячейка
 - Variable - переменные
+- Execute - выполнять
+- Be extended - быть расширенным, продленным
+- Compatible - совместимый 
+- Electromagnetic waves - электромагнитные волны 
+- Header - заголовок
