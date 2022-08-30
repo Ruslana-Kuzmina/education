@@ -75,3 +75,11 @@ Count 200*300*3= 180000, but we choose more because some additional space is als
 	* [x] svg
 	* [ ] jpeg
 	* [ ] gif
+
+## Formal Languages
+
+- Select all the words that match the regular expression [ec]ar.
+	* [x] ear
+	* [x] car
+	* [ ] bar
+	* [ ] march

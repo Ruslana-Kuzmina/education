@@ -1,0 +1,49 @@
+# Operating Systems
+
+## OS Concept
+
+An **operating system** (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs.  An operating system interacts with various hardware manufacturers using a set of drivers. A **driver** is a computer program that operates or controls a particular type of device that is attached to a computer. A **shell** (e.g. NVIDIA, Samsung Magician) might be used to make it easier to run and set drivers.
+
+Type of OS:
+- Desktop operating systems
+    - Windows
+    - OS X
+    - Linux OS
+- Mobile operating systems
+    - Android 
+    - iOS 
+
+The main functions of an operating system are as follows:
+- Managing a computer's resources (e.g. CPU, memory) between different programs and applications
+- Establishing a graphical user interface
+- Executing and providing services for applications software
+
+## Windows: Command Line
+
+A **command line** is a user interface navigated by typing corresponding commands at prompts by using a keyboard instead of a mouse as in the case of using graphical user interface (GUI). To start the command line in Windows OS, press Windows+R to open "Run" box. Then, type cmd and click OK to open a regular Command Prompt or type cmd and then press Ctrl+Shift+Enter to open an administrator Command Prompt.
+
+### Switch Drive in Command Line
+When working with command line, you may face the problem when the access to some drives or directories may be blocked or limited by a system administrator on computers belonging to a corporate organization or an educational institution. If for this reason you need to change the drive that opens in the command line by default, just type the desired drive name with a colon, like "D:".
+
+#### Run as Administrator
+
+#### CD Command in Command Line
+
+cd/?
+
+## Windows: Processes
+
+### Processes and Threads
+
+In simple terms, a **process** is an executing program. One or more threads run in the context of the process.
+
+A **thread** is the basic unit to which the operating system allocates processor time. A thread can execute any part of the process code, including the parts currently being executed by another thread.
+
+Each process can create a **child process**. In this case, the process which has a child process is called the **parent process**.
+
+### How to end/kill/close a process?
+In the Task Manager, if you want to end a process, right-click on the desired process and click *End task*.
+If you want to end a process and all related child processes, right-click on the desired process and click *End process tree*.
+
+### Sorting in Task Manager
+In the Task Manager, you can sort processes by Name, Status, CPU, Memory, Disk, Network, and so on. To do this, just click on the header of the desired column once or twice to sort by descending or ascending order, respectively.

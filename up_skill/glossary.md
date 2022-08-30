@@ -119,3 +119,16 @@
 - Compatible - совместимый 
 - Electromagnetic waves - электромагнитные волны 
 - Header - заголовок
+- Pattern - шаблон
+- Sequence - последовательность
+- Interaction - взаимодействие
+- Shell - оболочка
+- Tie - связать
+- Establish - учреждать, устанавливать, создавать
+- Type - напечатать
+- Threads - потоки
+- Allocate - выделять, распределять
+- Load - нагрузка
+- Launch - запускать
+- Nested items - вложенные элементы 
+- Suspended - приостановленный, подвешенный
