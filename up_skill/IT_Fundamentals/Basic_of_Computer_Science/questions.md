@@ -83,3 +83,25 @@ Count 200*300*3= 180000, but we choose more because some additional space is als
 	* [x] car
 	* [ ] bar
 	* [ ] march
+
+## Operating Systems
+
+- In Windows OS, how can you delete a service?
+	* [ ] Task Manager -> Services -> Find the required process and right-click on it -> Choose "Stop"
+	* [x] Open Command Line as Administrator -> Type the command: sc delete <ServiceName>
+	* [ ] Services -> Find the required process and right-click on it -> Choose "Stop"
+	* [ ] Open Command Line -> Type the command: sc delete <ServiceName>
+
+- In Windows OS, which command would you use to create a global environment variable and add it to system variables?
+	* [x] setx /m
+	* [ ] echo
+	* [ ] set
+	* [ ] set /m
+	* [ ] setx
+
+- In Linux (Ubuntu), if you are working with a long text file, which command would you use to display the file per page at a time and navigate both forward and backward?
+	* [x] less
+	* [ ] split
+	* [ ] grep
+	* [ ] vi
+	* [ ] more

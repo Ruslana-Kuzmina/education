@@ -132,3 +132,11 @@
 - Launch - запускать
 - Nested items - вложенные элементы 
 - Suspended - приостановленный, подвешенный
+- Quotation - ковычки
+- Remote - удаленный
+- Omit - пропустить
+- Remove - удалять
+- Reboot - перезагрузка
+- Prohibit - запретить
+- Environment variable - переменная окружения
+- Refer - ссылаться
