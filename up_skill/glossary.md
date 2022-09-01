@@ -140,3 +140,6 @@
 - Prohibit - запретить
 - Environment variable - переменная окружения
 - Refer - ссылаться
+- Layer - уровень
+- Сoncise - сокращенный
+- Usage - ррименение

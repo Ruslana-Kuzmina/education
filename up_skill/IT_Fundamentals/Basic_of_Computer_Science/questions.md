@@ -105,3 +105,82 @@ Count 200*300*3= 180000, but we choose more because some additional space is als
 	* [ ] grep
 	* [ ] vi
 	* [ ] more
+
+- In Linux (Ubuntu), what will be the result of the following command?
+export ex = name
+
+	* [ ] The environment variable "name" with the value "ex" that exists in a global session.
+	* [x] The environment variable "ex" with the value "name" that exists in a local session.
+	* [ ] The environment variable "name" with the value "ex" that exists in a local session.
+	* [ ] The environment variable "ex" with the value "name" that exists in a global session.
+
+- In Windows OS, how to reference an environment variable in the command line?
+	* [ ] Enclose the variable name in quotation marks.
+	* [x] Enclose the variable name in percent signs.
+	* [ ] Type the variable name.
+	* [ ] Put a percent sign before the variable name.
+	* [ ] Put a backslash before the variable name.
+
+- In Windows OS, if a process is stuck, how can it be killed?
+	* [ ] Command Line -> Type kill <NameOfTheRequiredProcess>
+	* [x] Task Manager -> Details -> Find the required process and right-click on it -> Choose "End task"
+	* [ ] Services -> Find the required service and right-click on it -> Propertes -> Set Startup Type to "Disabled"
+	* [ ] Services -> Find the required process and right-click on it -> Choose "Stop"
+
+- In Windows OS, which command-line command can you use to read a file?
+	* [ ] cat
+	* [x] type
+	* [ ] echo
+	* [ ] read
+
+- How can the following access rights be performed in Linux (Ubuntu):
+"A group can read and write the file, others can only read the file, and an owner can read, write, and execute a file."?
+	* [x] - rwx rw - r - -
+	* [ ] - rw - r - - rwx
+	* [ ] - rw - rwx r - -
+	* [ ] r - - rw - rwx
+	* [ ] rw r rwx
+
+- Select a true statement.
+	* [ ] As in Windows, in Linux, the system is installed on drive C.
+	* [x] In Linux, there are no drivers.
+	* [ ] Linux computers use the file system NTFS.
+	* [ ] Windows computers use the file systems EXT3 or EXT4.
+	* [ ] In Linux, tmp directory contains frequently modified files.
+
+## Network and Protocols
+
+- What does DNS stand for?
+	* [ ] Digital Name System
+	* [x] Domain Name System
+	* [ ] Dynamic Name Schema
+	* [ ] Domain Name Science
+	* [ ] Domain Name Schema
+
+- Suppose you open the URL https://mail.google.com/mail/u/0/#sent in your browser. Which part of the URL is not used to form the HTTP request?
+	* [ ] The prefix of the URL, "https://".
+	* [x] The "#sent" part which is at the end of the URL.
+	* [ ] The "mail." part in the hostname "mail.google.com".
+	* [ ] The tail of the request after the hostname, "/mail/u/0/#sent".
+
+- Which command line command can be used to find the IP address of your computer?
+	* [ ] tracert
+	* [ ] ping
+	* [x] ipconfig
+	* [ ] nslookup
+	* [ ] netstat
+
+## Databases
+
+- What does SQL stand for?
+	* [ ] Standard query language
+	* [x] Structured query language
+	* [ ] Standard quick language
+	* [ ] Structured question language
+
+- Which SQL command retrieves data from a table?
+	* [ ] UPDATE
+	* [x] SELECT
+	* [ ] DELETE
+	* [ ] RETRIEVE
+	* [ ] GET
