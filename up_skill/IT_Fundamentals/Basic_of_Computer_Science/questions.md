@@ -184,3 +184,23 @@ export ex = name
 	* [ ] DELETE
 	* [ ] RETRIEVE
 	* [ ] GET
+
+## Security
+
+- What is a hash?
+	* [ ] an encrypted password
+	* [x] a virtually unique text image of data
+	* [ ] a private key in asymmetric encryption
+	* [ ] the result of XOR operation applied to a message and an encryption key
+
+- Which of the following is the most used symmetric encryption nowadays?
+	* [ ] RSA
+	* [x] AES
+	* [ ] SHA-2
+	* [ ] TLS
+	* [ ] XOR Cipher
+
+- What type of encryption does TLS utilize?
+	* [ ] symmetric encryption
+	* [x] both symmetric and asymmetric encryption
+	* [ ] asymmetric encryption
