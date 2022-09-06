@@ -1,20 +1,21 @@
 # Glossary
 
-
 ## Terms
+
 - Product owner
 - Scrum master
 
-
-
 ## English - Russian Vocabulary
+
 ### Category 1
+
 - agenda:   повестка дня
 - comprise: включает myself
 - designed: разработан
 - newbies:  новичк
 
 ### Category 2
+
 - self-paced - самостоятельный
 - core - суть
 - rough estimation- Грубая оценка
@@ -66,9 +67,9 @@
 - Augmented reality- Дополненная реальность
 - Location-based services- Услуги на основе местоположения
 - Multiple options for authentication
-    * a password - пароль
-    * a fingerprint - отпечаток пальца
-    * a facial scanner - сканер лица
+  - a password - пароль
+  - a fingerprint - отпечаток пальца
+  - a facial scanner - сканер лица
 - possess- обладать, владеть
 - standalone - автономный
 - spread - распространять
@@ -108,7 +109,7 @@
 - Increment - Увеличение, прирост
 - Reset button - кнопка сброса
 - Power supply - источник питания
-- Motherboard - системная плата 
+- Motherboard - системная плата
 - Fetch-execute cycle - цикл выборка-выполнение
 - The decimal system - десятичная система
 - Revise - исправлять
@@ -116,8 +117,8 @@
 - Variable - переменные
 - Execute - выполнять
 - Be extended - быть расширенным, продленным
-- Compatible - совместимый 
-- Electromagnetic waves - электромагнитные волны 
+- Compatible - совместимый
+- Electromagnetic waves - электромагнитные волны
 - Header - заголовок
 - Pattern - шаблон
 - Sequence - последовательность
@@ -130,7 +131,7 @@
 - Allocate - выделять, распределять
 - Load - нагрузка
 - Launch - запускать
-- Nested items - вложенные элементы 
+- Nested items - вложенные элементы
 - Suspended - приостановленный, подвешенный
 - Quotation - ковычки
 - Remote - удаленный
@@ -144,3 +145,5 @@
 - Сoncise - сокращенный
 - Usage - ррименение
 - Reuse - повторное использование
+- Enable - включить, разрешать
+- Hotkeys - горячие клавиши
