@@ -147,4 +147,7 @@
 - Reuse - повторное использование
 - Enable - включить, разрешать
 - Hotkeys - горячие клавиши
- -Handy - удобный
+- Handy - удобный
+- Сomputing - вычисление
+- Recover = reconstitute - восстанавливать
+- Snapshot - снимок

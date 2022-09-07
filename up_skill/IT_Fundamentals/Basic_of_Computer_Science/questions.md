@@ -218,3 +218,43 @@ height, color depth, and other
   - [ ] symmetric encryption
   - [x] both symmetric and asymmetric encryption
   - [ ] asymmetric encryption
+
+## Productivity Tools
+
+- A saved and stored copy of computer data that can be used to recover these data
+  in case of their damage, deletion, or when an early version of these data is
+  required is called _____.
+  - [ ] a Git
+  - [x] a backup
+  - [ ] version control
+  - [ ] a virtual machine
+
+- Which stage of file residence is NOT presented in a Git version control system?
+  - [ ] Modified
+  - [x] Created
+  - [ ] Staged
+  - [ ] Commited
+
+- Which backup method can be illustrated by the following example: “A set of DVDs
+  without systematic information about what is stored on them.”?
+  - [ ] Differential
+  - [x] Unstructured
+  - [ ] Incremental
+  - [ ] CDP
+
+- If you are going to use the cloud to develop your own application and would
+  like the cloud vendor to provide you with development tools and the operating
+  system to use, which model of cloud computing are you most likely to choose?
+  - [ ] Software-as-a-Service (SaaS)
+  - [x] Platform-as-a-Service (PaaS)
+  - [ ] Infrastructure-as-a-Service (IaaS)
+  - [ ] Function-as-a-Service (FaaS)
+
+- Which type of a hypervisor assumes that a hypervisor is located above hardware
+  as a hardware and software implementation, that operating systems come from a
+  hypervisor, and is typical for server computers?
+  - [ ] Hosted
+  - [x] Native
+  - [ ] Hybrid
+
+
