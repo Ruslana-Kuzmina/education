@@ -151,3 +151,6 @@
 - Сomputing - вычисление
 - Recover = reconstitute - восстанавливать
 - Snapshot - снимок
+- Manual pages - справочные страницы
+- Restriction - ограничение
+- Fee - плата, вознаграждение, платеж

@@ -257,4 +257,36 @@ height, color depth, and other
   - [x] Native
   - [ ] Hybrid
 
+## Additional Topics
+
+- Which of the following licenses is a copyleft license?
+  - [ ] BSD License
+  - [ ] MIT License
+  - [ ] Apache License
+  - [x] GNU General Public License
+
+- A license under which a user is typically allowed to use, modify, redistribute,
+  and sometimes sublicense the software is called ____.
+  - [ ] a copyright license
+  - [x] an open source license
+  - [ ] a software license
+  - [ ] a proprietary license
+
+- What is a layer in the architecture of an application?
+  - [ ] A physical separation of an application across multiple machines.
+  - [x] A logical separation of the application code.
+  - [ ] The code responsible for displaying a user interface.
+  - [ ] The code responsible for application coordination.
+  - [ ] The code responsible for storing and retrieving the data.
+
+- What is a tier in the architecture of an application?
+  - [ ] A logical separation of the application code.
+  - [x] A physical separation of an application across multiple machines.
+  - [ ] The code responsible for displaying a user interface.
+  - [ ] The code responsible for application coordination.
+  - [ ] The code responsible for storing and retrieving the data.
+
+
+
+
 

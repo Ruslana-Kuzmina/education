@@ -2,7 +2,7 @@
 
 ## Hotkeys
 
-One way to increase your work productivity is to use hotkeys (also called keyboard
+One way to increase your work productivity is to use ёs (also called keyboard
 shortcuts) while interacting with an operating system or an application. A **hotkey**
 is a key or a special combination of keys on a keyboard; pressing a hotkey enables
 the performance of a certain task. Exactly what task will be performed after pressing
@@ -162,21 +162,25 @@ There are three main types of hypervisors:
   than hosted ones. They are also faster and more efficient as they generate less
   overhead, while under hosted hypervisors, the OS does not directly communicate
   with computer’s hardware.
+
   Examples: VMware ESXi, Citrix XenServer.
-  Guest OS
-  Hypervisor
-  Hardware
+
+  - Guest OS
+  - Hypervisor
+  - Hardware
 
 - Type Hosted
   This type assumes that the parent operating system is located above hardware,
   and the hypervisor is installed in it. Guest operating systems come from a hypervisor.
   The type is typical for user computers when the virtualization task is a secondary
   task of the computer.
+
   Examples: VMware Workstation, QEMU, Parallels Desktop, VirtualBox.
-  Guest OS
-  Hypervisor
-  Host OS
-  Hardware
+
+  - Guest OS
+  - Hypervisor
+  - Host OS
+  - Hardware
 
 - Type Hybrid
   This type is a middle ground between Native and Hosted types. A Hybrid hypervisor
@@ -209,14 +213,15 @@ There are three main types of hypervisors:
 
   Сloud service models:
 
-  - **SAAS** - Cloud users are provided with access to applications hosted on cloud
-    servers. Examples: Salesforce, Gmail.
-  - **PAAS** - Cloud users are provided with everything needed to develop their own
-    applications (i.e. cloud-hosted development tools, operating systems, infrastructure).
-    Example: Microsoft Azure.
-  - **IAAS** - Cloud users are provided with servers and storage hosted on the cloud.
-    This infrastructure is used by them to develop their own applications while they
-    use their own development tools and operating system. Example: OpenStack.
+  - **Software as a service** - Cloud users are provided with access to applications
+    hosted on cloud servers. Examples: Salesforce, Gmail.
+  - **Platform as a service** - Cloud users are provided with everything needed
+    to develop their own applications (i.e. cloud-hosted development tools, operating
+    systems, infrastructure). Example: Microsoft Azure.
+  - **Infrastructure  as a service** - Cloud users are provided with servers and
+    storage hosted on the cloud. This infrastructure is used by them to develop
+    their own applications while they use their own development tools and operating
+    system. Example: OpenStack.
 
 ## Backups
 
