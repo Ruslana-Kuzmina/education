@@ -154,3 +154,7 @@
 - Manual pages - справочные страницы
 - Restriction - ограничение
 - Fee - плата, вознаграждение, платеж
+- Complement - дополнять
+- Affect - влиять
+- Вelimiter - разделитель
+- Emphasize - подчеркивать
