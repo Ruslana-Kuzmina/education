@@ -158,3 +158,9 @@
 - Affect - влиять
 - Вelimiter - разделитель
 - Emphasize - подчеркивать
+- Integer data - целочисленные данные
+- Float data - данные с плавающей запятой, как 3,14
+- Variables - переменные
+- Assigтment - присвоение
+- Notation - обозначение
+- Subtract - вычитание
