@@ -126,3 +126,78 @@ class Main {
 
 In the beginning we need to put function like x or y.
 
+- What will be displayed as a result if an expression is (double)(5/3+6+8)?
+
+  - [ ] 15
+  - [ ] 15.667
+  - [x] 15.00
+
+We put this function in Java System.out.println((double)(5/3+6+8))
+
+- Enter the correct operator to multiply 7 by 3, and print the result in Python:
+  print(7__3). Be sure to enter only the operator into the field below.
+
+  - [x] *
+
+- Use the correct comparison operator to check if 7 is not equal to 3 in Python:
+  if 7__3: print("7 and 3 is not equal"). Be sure to enter only the operator into
+  the field below.
+
+  - [x] !=
+
+- __________ is used to compare the values of two operands.
+
+  - [x] A relational operator
+
+- What will be displayed on your screen after running the following C code?
+
+```C
+#include <stdio.h>
+
+int main()
+{
+    int a = (4, 6, 8);
+    printf("%d", a);
+    return 0;
+}
+```
+
+- [ ] 0
+- [x] 8
+- [ ] 4
+- [ ] 6
+- [ ] Compile time error
+
+When using the assignment operator, the expression is evaluated from left to right.
+And since the parenthesis operator has a higher precedence than the assignment
+operator, because of the program execution, the last number from the parentheses
+will be displayed, in this case, 8.
+
+- Which one or more of the following operators are logical in C ?
+
+  - [x] !
+  - [ ] ^
+  - [ ] &
+  - [x] &&
+  - [ ] |
+
+- Which operator is used to get the remainder after the division?
+
+  - [ ] //
+  - [x] %
+  - [ ] /
+  - [ ] ^
+  - [ ] *
+
+- What is the answer if the following expression in C is evaluated?
+
+`10 + 33 % 5 * 7 / 3 % 4 + 3`
+
+- [ ] 16
+
+
+
+
+
+
+
