@@ -17,17 +17,17 @@ and also **started/finished** label
 - [x] Career Counseling: video 1,2,7,8 + 1 from 3-6 (S/M, 2022-08-24/2022-08-24)
 - [ ] IT Fundamentals (XL/XL, 2022-08-25/2022-10-21)
   - [ ] Basics of Computer Science (10 modules, XL/XL, 2022-08-25/2022-09-08)
-  - [ ] Basics of Programming (11 modules, XL/XL, 2022-09-09/2022-09-22)
-  - [ ] Math for IT (9 modules, L/L, 2022-09-23/2022-10-07)
-  - [ ] IT Fundamentals Assessment (S/XL, 2022-10-08/2022-10-10)
-- [ ] Cloud Overview (7 modules, M/M, 2022-10-13/2022-10-21)
+  - [ ] Basics of Programming (11 modules, XL/XL, 2022-09-09/2022-09-30)
+  - [ ] Math for IT (9 modules, L/L, 2022-10-01/2022-10-16)
+  - [ ] IT Fundamentals Assessment (S/XL, 2022-10-17/2022-10-18)
+- [ ] Cloud Overview (7 modules, M/M, 2022-10-20/2022-10-30)
 
 #### Soft
 
-- [ ] Language (?/?, 2022-10-24/2022-11-07)
-  - [ ] English: self-study Bank (?/?, 2022-10-24/2022-11-06)
-  - [ ] Assessment online >=B1 (?/?, 2022-11-07)
-- [ ] UpSkill Mentoring Programs (2022-11-09)
+- [ ] Language (?/?, 2022-10-31/2022-11-13)
+  - [ ] English: self-study Bank (?/?, 2022-10-31/2022-11-12)
+  - [ ] Assessment online >=B1 (?/?, 2022-11-13)
+- [ ] UpSkill Mentoring Programs (2022-11-14)
 
 ### Deadline
 
