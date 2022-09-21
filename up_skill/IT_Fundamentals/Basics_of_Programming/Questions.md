@@ -195,6 +195,30 @@ will be displayed, in this case, 8.
 
 - [ ] 16
 
+## Basic Statement of Programming
+
+- ________ statements allow programs to take into account the conditions and execute
+  specific program instructions based on the taken decision.
+
+  - [x] selection
+  - [ ] iteraction
+
+- In C or Java, in order to stop the loop if i is 6, you use:
+
+```C
+for(int i = 2; i < 12;i++){
+    if(i == 6){
+        _______;
+    }
+}
+```
+
+- [ ] case
+- [x] break 
+- [ ] goto
+- [ ] continue
+- [ ] stop
+
 
 
 
