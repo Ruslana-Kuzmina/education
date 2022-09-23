@@ -219,6 +219,24 @@ for(int i = 2; i < 12;i++){
 - [ ] continue
 - [ ] stop
 
+## Algorithm Design and Modern Software Process Models
+
+- An iterative process of system development in which requirements are converted
+  to a working system that is continually revised through risk analysis is
+  called _______.
+
+  - [ ] Waterfall Modeling
+  - [ ] Kanban Modelling
+  - [x] Spiral Modelling
+  - [ ] Iterative Modelling
+
+- What does the symbol below represent in a flowchart of a program in computer
+  programming? rectangle
+
+  - [ ] Decision
+  - [ ] Start or end
+  - [ ] Flow line
+  - [x] Process
 
 
 
