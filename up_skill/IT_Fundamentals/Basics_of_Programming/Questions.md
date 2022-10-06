@@ -238,6 +238,43 @@ for(int i = 2; i < 12;i++){
   - [ ] Flow line
   - [x] Process
 
+## Structured Types
+
+- Fill in the blank in the following block of code so that each element in the
+  array is assigned a value of its index, incremented by 2.
+
+```Java
+int[] array = new int[15];
+for ( int index=0; index < array.length; index++ )
+{
+     _______________________
+}
+```
+
+- [ ] array[index+2] = index;
+- [x] array[index] = index+2;
+- [ ] array[index] = 2+array[ index -1];
+- [ ] array[index] = 2*index;
+
+- What is the length of the following array:
+  `char[] word = { 'q','u','e','s','t','i','o','n' };`
+
+  - [x] 8
+
+- Arrays can be passed as parameters to a function either by value or by reference.
+
+  - [ ] True
+  - [x] False
+
+Arrays can be passed as parameters to a function by reference. 
+
+- Which of the following statements about Queue Data Structure is correct?
+
+  - [x] A queue is a first-in, first-out (FIFO) data structure.
+  - [ ] New nodes can only be added to the top of the stack.
+  - [ ]A queue allows a node to be added or removed from the front (from the
+       beginning).
+  - [x] A queue uses two ends of the structure.
 
 
 
