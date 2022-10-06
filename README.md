@@ -16,7 +16,7 @@ and also **started/finished** label
 - [x] Business Analysis Fundamentals (M/M, 2022-08-15/2022-08-22)
 - [x] Career Counseling: video 1,2,7,8 + 1 from 3-6 (S/M, 2022-08-24/2022-08-24)
 - [ ] IT Fundamentals (XL/XL, 2022-08-25/2022-10-21)
-  - [ ] Basics of Computer Science (10 modules, XL/XL, 2022-08-25/2022-09-08)
+  - [x] Basics of Computer Science (10 modules, XL/XL, 2022-08-25/2022-09-08)
   - [ ] Basics of Programming (11 modules, XL/XL, 2022-09-09/2022-09-30)
   - [ ] Math for IT (9 modules, L/L, 2022-10-01/2022-10-16)
   - [ ] IT Fundamentals Assessment (S/XL, 2022-10-17/2022-10-18)
