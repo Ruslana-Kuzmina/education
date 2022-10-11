@@ -1151,10 +1151,3 @@ Number of ratings A = 8
 Number of ratings C = 2
 Number of ratings D = 1
 Number of ratings F = 4
-
-
-
-
-
-
-
