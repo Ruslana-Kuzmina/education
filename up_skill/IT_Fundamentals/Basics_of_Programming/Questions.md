@@ -238,6 +238,47 @@ for(int i = 2; i < 12;i++){
   - [ ] Flow line
   - [x] Process
 
+## Functions
+
+- Which of the following statements is correct? Select all that correct ones in
+  order to complete the phrase "We should use functions in programming …"
+
+  - [x] to avoid duplicating some blocks of code.
+  - [ ] to make a program more complex by increasing the number of lines of code.
+  - [x] to break down a program into smaller parts.
+  - [x] to make a program more readable and easier to modify.
+
+- What is return used for?
+
+  - [ ] This is an unconditional control transfer operator that completes the execution.
+  - [x] This is an unconditional control transfer operator that returns the result
+        of the function execution to the call point.
+  - [ ] This is a function that ensures the transfer of the result to the call point.
+  - [ ] This is a function that ends the execution of a function.
+
+- What is the return type of the function with the following prototype?
+  `double getFunc(char x, float v, int t);`
+
+  - [ ] char
+  - [x] double
+  - [ ] float
+  - [ ] int
+  - [ ] void
+
+- Which of the following is a valid function call to call the below function?
+
+```C
+void getValue(int num, char ch)
+{
+   printf("There is %d and %c.", num, ch);
+}
+```
+
+- [ ] getValue num ch;
+- [x] getValue(5, 'F');
+- [ ] getValue();
+- [ ] void getValue (num, ch);
+
 ## Structured Types
 
 - Fill in the blank in the following block of code so that each element in the
@@ -272,11 +313,133 @@ Arrays can be passed as parameters to a function by reference. 
 
   - [x] A queue is a first-in, first-out (FIFO) data structure.
   - [ ] New nodes can only be added to the top of the stack.
-  - [ ]A queue allows a node to be added or removed from the front (from the
-       beginning).
+  - [ ] A queue allows a node to be added or removed from the front (from the
+        beginning).
   - [x] A queue uses two ends of the structure.
 
+## Sorting Methods
 
+- The given array is `array = {3,4,5,2,1}`. What is the actual number of swaps in
+  Bubble Sort?
+
+  - [x] 7
+
+- Arrange the lines of the code in the correct order to perform selection sort.
+  Exemple Selection sort in C
+
+- Which sorting algorithm makes one swap per pass (possibly swapping an element
+  with itself)?
+
+  - [ ] Bubble Sort
+  - [x] Selection Sort
+  - [ ] Insertion Sort
+
+- Which of the following is true about different sorting algorithms?
+
+  - [x] Insertion Sort is the best algorithm to sort data as it arrives, one piece
+        at a time; perhaps, from a network.
+  - [ ] Quick Sort is a stable sorting algorithm in its typical implementation.
+  - [ ] If a swap operation is very costly, the Merge Sort algorithm should be
+        preferred so that the number of swap operations is minimized in general.
+  - [x] The Selection Sort algorithm searches through the remaining elements of
+        the list for the best element to exchange with the current element, and
+        after the completion of the pass, if the required element is found, one
+        swap will be made.
+
+## Files
+
+- What is the last action that must be performed on a file in programming?
+
+  - [ ] Update
+  - [x] Close
+  - [ ] End
+  - [ ] Write
+  - [ ] Read
+
+- What syntax should be used to write a file in C using binary mode?
+  `FILE *newF;`
+
+  - [ ] newF = fopen("new.txt","wr")
+  - [x] newF = fopen("new.txt","wb")
+  - [ ] newF = fopen("new.txt","a")
+  - [ ] newF = fopen("new.txt","b")
+
+- Which C functions are used to read or write a file in Text Mode?
+
+  - [ ] printf(), scanf()
+  - [x] fprintf(), fscanf()
+  - [ ] read(), write()
+  - [ ] input(), output()
+
+- When fopen() is not able to open a file, what does it return in C?
+
+  - [x] NULL
+  - [ ] EOF
+  - [ ] Runtime Error
+  - [ ] −1
+
+## Object-Oriented in Programming
+
+- Which of the following is not a part of OOP?
+
+  - [ ] polymorphism
+  - [x] multitasking support
+  - [ ] type checking
+  - [ ] hiding information
+  - [ ] creating derived classes
+
+- Encapsulation indicates that the internal description of an object is fully
+  accessible to external code in Java.
+
+  - [ ] True
+  - [x] False
+
+- Which of the following is the mechanism of "hiding" data and the methods of a
+  class from the "outside world" by making them private in Java?
+
+  - [ ] Inheritance
+  - [x] Encapsulation
+  - [ ] Abstraction
+  - [ ] Polymorphism
+
+- Read the question below and select all correct answers. Then, click "Submit."
+  Which of the following statements is correct (in Java)?
+
+  - [x] A default constructor, which is not defined by a programmer, always
+        initializes the values as zero for numeric values, and null for string
+        values.
+  - [ ] A default constructor cannot be called explicitly.
+  - [ ] There are 4 types of constructors in general, namely, default constructors,
+        parameterized constructors, static constructors, and copy constructors.
+  - [x] Constructors are special functions, whose return type is not defined and
+        is not even void.
+
+- Read the question below and select all correct answers. Then, click "Submit."
+  assessment.
+  Complete the following Java code to run the following program
+
+```Java
+______ Quiz {
+  int count;
+  Quiz(int count) {
+    this.count=count;
+  }
+}
+class QuizMain {
+  public static void main (String[] args) {
+        Quiz score = new ______(100);
+        System.out.println("You get " + _____.count + " points!");
+  }
+}
+```
+
+- [x] class
+- [ ] Static
+- [x] Quiz
+- [ ] obj
+- [x] score
+- [ ] count
+- [ ] this
 
 
 
