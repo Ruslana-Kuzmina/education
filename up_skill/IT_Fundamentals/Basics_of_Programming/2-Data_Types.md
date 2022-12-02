@@ -156,7 +156,7 @@ console.log("Welcome to the basics of programming!")
 
 ## Basic Data Types
 
-we deal with different types of data such as strings, characters, whole numbers
+We deal with different types of data such as strings, characters, whole numbers
 (integers), decimal numbers (floating-point numbers), etc.
 
 The data type defines:

@@ -255,7 +255,7 @@ and Python has dynamic strong implicit typing.
 
 |Programming Language|Static vs. Dynamic|Strong vs. Weak|Explicit vs. Implicit|
 |--------------------|------------------|---------------|---------------------|
-|JavaScript         |Dynamic           |Weak           |Implicit             |
+|JavaScript          |Dynamic           |Weak           |Implicit             |
 |Ruby                |Dynamic           |Strong         |Implicit             |
 |Python              |Dynamic           |Strong         |Implicit             |
 |Java                |Static            |Strong         |Explicit             |
@@ -575,7 +575,7 @@ The value of variable age is: 15
 The Output of the ternary statement is: 30
 a + b + c = 6
 
-####### Operators Precedence
+###### Operators Precedence
 
 - Operator Precedence
   A property of an operator that affects the order in which its result is evaluated

@@ -60,7 +60,7 @@ Internet banking, fitness trackers, video streaming, food blogs, ticket sales.
 A **program** is a set of detailed instructions that are passed to a computer when
 it is necessary for the computer to perform a task.
 
-Problem - Idea - Algorithm - Programm - Execution
+Problem - Idea - Algorithm - Program - Execution
 
 ## Programming Languages
 
@@ -117,15 +117,17 @@ following most common types (paradigms) of languages:
 The difference between **procedural** and **object-oriented programs** is discussed
 in the table below:
 
-|Procedural:                                        |Object-oriented:                                        |
-|Programs are written as sequences of instructions  |Programs are an interaction of functions between objects|
-|---------------------------------------------------|--------------------------------------------------------|
-|Top-down approach                                  |Bottom-up approach                                      |
-|Code is independent                                |Code is modular                                         |
-|Data is not secure                                 |Data can be secure                                      |
-|It doesn’t have a proper way for hiding data       |Helps in wrapping data and functions in a class         |
-|Difficult to reuse                                 |Can be extended for reuse                               |
-|BASIC, C, FORTRAN, and Pascal                      |Java                                                    |
+|Procedural:                                       |Object-oriented:                           |
+|Programs are written as sequences of instructions |Programs are an interaction of functions   |
+|                                                  |between objects                            |
+|--------------------------------------------------|-------------------------------------------|
+|Top-down approach                                 |Bottom-up approach                         |
+|Code is independent                               |Code is modular                            |
+|Data is not secure                                |Data can be secur                          |
+|It doesn’t have a proper way for hiding data      |Helps in wrapping data and functions in a  |
+|                                                  |class                                      |
+|Difficult to reuse                                |Can be extended for reuse                  |
+|BASIC, C, FORTRAN, and Pascal                     |Java                                       |
 
 ### Is C or C++ a Low-level or a High-level Language?
 
