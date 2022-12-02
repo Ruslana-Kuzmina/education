@@ -60,7 +60,7 @@ have two cells, we can store 4 states or a number from 0 to 3. In case of three
 cells, we can store 8 states or a number from 0 to 7. Each additional cell multiplies
 the number of possible states by 2.
 
-In case of 8 cells, the number of states is 2*8 = 256. The group of 8 cells has
+In case of 8 cells, the number of states is 2^8 = 256. The group of 8 cells has
 a special name, a **byte**.
 To write the number stored in a byte, we can use the binary system and write 8
 digits. However, it is more convenient to use the hexadecimal system. Note that
