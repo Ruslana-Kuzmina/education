@@ -1,6 +1,4 @@
-# Up Skill
-
-## Purpose of this program
+# Purpose of this program
 
 Previously, I worked as an accountant in the transport sector, now I am
 considering the possibility of learning a new specialty as a QA. This is an
