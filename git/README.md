@@ -9,3 +9,46 @@
 загрузилось.
 
 
+## My Git flow
+
+- State is `master` and `develop` are on the same commit in local and remote
+- Switch to `develop`
+
+    ```
+    git switch develop
+    ```
+
+- Do changes in `develop`
+
+    ```
+    git add -i
+    git commit -m "Comment on your changes"
+    ```
+
+- Rebase `develop` on the top of `master`
+
+    ```
+    git rebase master
+    ```
+
+- Push `develop` to remote
+
+    ```
+    git push --force
+    ```
+
+- GitHub: Create a Pull Request `develop` > `master`
+- GitHub: Merge the Pull Request by "Rebase and Merge"
+- Switch to `master` and pull changes
+
+    ```
+    git switch master
+    git pull
+    ```
+
+- Switch to `develop` and rebase `develop` on the top of `master`
+
+    ```
+    git switch develop
+    git rebase master
+    ```
