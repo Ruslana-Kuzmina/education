@@ -1,3 +1,5 @@
+# Automated Testing
+
 Problems that can be solved by testing automatically:
 
 - Time-consuming tasks
@@ -28,7 +30,8 @@ Problems that can be solved by testing automatically:
 - Load and performance assessment
 
   When it comes to an extensive number of users, there is simply no human resource
-  capacity for it, and automated tests are the only viable option to assess application performance across countless simulations.
+  capacity for it, and automated tests are the only viable option to assess
+  application performance across countless simulations.
 
 Areas where manual testing is preferred:
 
