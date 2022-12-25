@@ -23,15 +23,16 @@ into the language a computer can execute.
 
 Why is the testing necessary?
 
-Even though some people think it is nonsense to run various tests before a product is presented to the public, I take my job very seriously.
+Even though some people think it is nonsense to run various tests before a product
+is presented to the public, I take my job very seriously.
 
 I can give you 4 reasons why testing is necessary.
 
 - First, security. If a computer system gets hacked, the hackers can get to all
   kinds of data that is private and they may use this to their own use. They could
-  steal money from your bank, since they have access to all your banking details.
-  If we do not protect our product and test it to make sure it is safe against
-  hackers, the customer will not want to buy our product.
+  steal money from your bank, since they have access to all your banking
+  details. If we do not protect our product and test it to make sure it is safe
+  against hackers, the customer will not want to buy our product.
 
 - Second, customer satisfaction. This is why we do it all. And in order to make
   sure the customer is happy with the product we test our software over and over
@@ -59,9 +60,9 @@ said, I take my job seriously because it is an important one.
 **Manual testing** - is carried out by QA Specialists, who make certain that programs
 operate correctly under the conditions outlined in pre-made test cases.
 
-**Automated testing** - needs pre-made scripts and tests in order to run without human
-involvement. They determine how well the programs are performing by comparing the
-actual results of the test with the results that were anticipated.
+**Automated testing** - needs pre-made scripts and tests in order to run without
+human involvement. They determine how well the programs are performing by comparing
+the actual results of the test with the results that were anticipated.
 
 Types of testing:
 
@@ -88,7 +89,6 @@ it is seen as a reliable product. Non-functional testing is looked at from the v
 of customer experience. It is a crucial factor in making sure the client is satisfied.
 As it's very hard and takes up a lot of time to do non-functional testing manually,
 some special automated tools are used in this type of testing.
-
 
 |Functional testing    | Non-functional testing   |
 |Objective

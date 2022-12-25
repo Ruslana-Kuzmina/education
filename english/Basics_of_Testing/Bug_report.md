@@ -1,3 +1,5 @@
+# Bug Report
+
 How to complete a bug report:
 
 ID/name
