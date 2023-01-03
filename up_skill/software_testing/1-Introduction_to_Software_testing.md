@@ -31,14 +31,18 @@ Hard skills:
 
 ## Basic Software Testing Terminology
 
-              Quality
+```scheme
+            Quality
                 |
         Quality Management
            |           |
 Quality Assurance   Quality Control
+```
 
 **Testing** – the process concerned with planning, preparation and evaluation of
-software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects.
+software products and related work products to determine that they satisfy
+specified requirements, to demonstrate that they are fit for purpose and to detect
+defects.
 
 **Quality** – the degree to which a component, system or process meets specified
 requirements and/or user/customer needs and expectations.
@@ -58,7 +62,8 @@ its requirements or specifications.
 **Expected result** – the predicted observable behavior of a component or system
 executing under specified conditions, based on its specification or another source.
 
-**Actual result** – the behavior produced/observed when a component or system is tested.
+**Actual result** – the behavior produced/observed when a component or system is
+tested.
 
 **Checklist** – a set of ideas.
 
