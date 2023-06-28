@@ -77,32 +77,31 @@ Software testing lifecycle:
 
 1.General planning and requirements analysis
 
-Here we have to find out: what to test; how much work is ahead;
-what difficulties we may face; do we have all necessary resources; are
-requirements good enough.
+Here we have to find out: what to test; how much work is ahead; what difficulties we
+may face; do we have all necessary resources; are requirements good enough.
 
 2.Acceptance criteria establishment
 
-Here we have to establish or adjust metrics and criteria for test
-process to start, pause, resume, complete or abort. We also have to
-know key quality criteria and goals for the current test cycle.
+Here we have to establish or adjust metrics and criteria for test process to start,
+pause, resume, complete or abort. We also have to know key quality criteria and goals
+for the current test cycle.
 
 3.Test strategy establishment
 
-Once again we return to planning to find out HOW shall we achieve
-all those goals and criteria from the previous step. Here we speak
-about approaches, tools, schedule, roles, responsibility and so on.
+Once again we return to planning to find out HOW shall we achieve all those goals
+and criteria from the previous step. Here we speak about approaches, tools, schedule,
+roles, responsibility and so on.
 
 4.Test cases creation
 
-Here we create, review, adjust, rework (and so on) checklists, test
-cases, test scenarios and other similar artifacts.
+Here we create, review, adjust, rework (and so on) checklists, test cases, test
+scenarios and other similar artifacts.
 
 5.Test cases execution
 6.Defect reporting
 
-These two stages are inseparable as we report defects during test
-cases execution and defects detection.
+These two stages are inseparable as we report defects during test cases execution
+and defects detection.
 
 7.Test results analysis
 8.Test results reporting
