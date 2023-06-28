@@ -31,8 +31,6 @@ A **tree** contains vertices and edges.
 A **graph** consists of vertices(or nodes) connected by edges(or arcs) where edges may
 be directed or undirected.
 
-
-
 Examples:
 
 1.I'm ready to grasp an opportunity to expand the business.
